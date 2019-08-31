@@ -24,7 +24,7 @@ example : 11,200 -> 11200
 """
 def remove_commas(num_with_commas):
     fixed_number = num_with_commas.replace(",", "")
-    return fixed_number 
+    return int(fixed_number) 
 
 dollar  = remove_commas(dollar)
 pound   = remove_commas(pound)
