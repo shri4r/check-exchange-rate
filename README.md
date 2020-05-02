@@ -1,3 +1,7 @@
+# دریافت قیمت به روز ارز
+
+دریافت قیمت به روز `دلار`، `پوند` و `یورو`
+
 # Check exchange rate
 
 Check the latest price of dollar, euro and pound.
