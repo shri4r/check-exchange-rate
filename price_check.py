@@ -1,5 +1,3 @@
-# Author : Shahriar Hashemi
-
 import lxml
 import requests
 from bs4 import BeautifulSoup
@@ -18,9 +16,9 @@ pound  = soup.find("tr", attrs={"data-market-row":"price_gbp"}).td.string
 euro   = soup.find("tr", attrs={"data-market-row":"price_eur"}).td.string
 
 """
-This Function removes all the commas in the string 
-and then converts the string to an integer.
-example : 11,200 -> 11200
+This function takes a string,
+removes the commas and then converts it to an integer.
+example : 495,000 -> 495000
 """
 def remove_commas(num_with_commas):
     fixed_number = num_with_commas.replace(",", "")

@@ -1,19 +1,8 @@
-# دریافت قیمت به روز ارز
+# دریافت قیمت به‌روز دلار، یورو و پوند
 
-دریافت قیمت به روز `دلار`، `پوند` و `یورو`
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages.
 
-# Check exchange rate
-
-Check the latest price of dollar, euro and pound.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install packages.
-
-1. cd to the directory where requirements.txt is located.
-2. activate your virtualenv.
-3. run pip install -r requirements.txt in your shell.
-
-```bash
-pip install -r requirements.txt
-```
+1. cd to the directory where ```requirements.txt``` is located.
+2. Activate the virtual environment.
+3. Enter ```pip install -r requirements.txt``` in your shell.
+4. Run the script.
