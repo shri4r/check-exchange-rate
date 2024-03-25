@@ -1,4 +1,2 @@
-/venv/
-Pipfile
-Pipfile.lock
-.vscode
+# Ignore virtual environment
+venv/
